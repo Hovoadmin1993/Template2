@@ -1,0 +1,49 @@
+.rsvp{
+    background-color: #ffdddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    h2{
+        letter-spacing: 4px;
+        font-size: 36px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        color: #000;
+        text-align: center;
+        @media screen and(max-width:587px) {
+            font-size: 30px;
+        }
+    }
+    p{
+        letter-spacing: 4px;
+        font-size: 18px;
+        line-height: 2;
+        font-family: "georgia", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        color: #000;
+        text-align: center;
+    }
+    .cent{
+        text-align: center;
+        button{
+            @include butt();
+            background-color: #d87070;
+            color: #fff;
+            transition: .1s linear;
+            margin: 10px 0;
+            font-size: 24px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 400;
+            padding: 10px 60px !important;
+            margin: 10px 0;
+            &:hover{
+                background-color: rgb(112, 107, 107);
+            }
+        }
+    }
+
+}

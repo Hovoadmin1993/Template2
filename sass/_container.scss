@@ -1,0 +1,50 @@
+.container{
+    background-color: $bg-color;
+    .main_div{
+        padding: 50px 0;
+        margin: auto;
+        width: 70vw;
+        h2{
+            text-align: center;
+            color: $h2_color;
+            font-size: 36px;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        img{
+            width: 100%;
+        }
+        .info{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            @media screen and(max-width:700px) {
+                justify-content: space-between;
+            }
+            h3{
+                font-family:  "Raleway", sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                text-align: center;
+                margin: 10px 0;
+                color: #000;
+                @media screen and(max-width:700px) {
+                    font-size: 25px;
+                }
+            }
+            p{
+                font-size: 15px;
+                font-weight: 300;
+                font-family: georgia;
+                text-align: center;
+                line-height: 2;
+                color: #000;
+                @media screen and(max-width:700px) {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

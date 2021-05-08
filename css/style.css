@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5; }
+
+html {
+  scroll-behavior: smooth; }
+
+.header {
+  height: 100vh;
+  background-image: url(../img/wedding_couple.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(50%); }
+  .header h1 {
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    color: #fff; }
+  .header h2 {
+    font-size: 30px;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    color: #fff; }
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.658);
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: .1s linear;
+  padding: 10px; }
+  .nav:hover {
+    background-color: #fff; }
+  .nav button {
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .1s linear; }
+    .nav button:hover {
+      background-color: #a7a7a7; }
+    @media screen and (max-width: 630px) {
+      .nav button {
+        width: initial; } }
+    .nav button a {
+      text-decoration: none;
+      color: #000; }
+
+.main {
+  background-color: #e7d0d0; }
+  .main .main_div {
+    padding: 50px 0;
+    margin: auto;
+    width: 70vw; }
+    .main .main_div h2 {
+      text-align: center;
+      color: #757575;
+      font-size: 36px;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      margin: 20px 0; }
+    .main .main_div img {
+      width: 100%; }
+    .main .main_div p {
+      font-size: 15px;
+      line-height: 2;
+      font-style: italic;
+      font-family: "Raleway", sans-serif;
+      margin: 20px 0; }
+    .main .main_div .divbut {
+      text-align: center; }
+      .main .main_div .divbut button {
+        outline: none;
+        border: none;
+        padding: 12px 24px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        font-family: "georgia", sans-serif;
+        margin: 20px 0;
+        transition: .1s linear; }
+        .main .main_div .divbut button:hover {
+          background-color: #818181; }
+
+.section {
+  height: 100vh;
+  background-image: url(../img/download.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section h2 {
+    font-size: 64px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    color: #fff; }
+    @media screen and (max-width: 510px) {
+      .section h2 {
+        font-size: 54px; } }
+  .section p {
+    font-size: 30px;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    color: #fff; }
+
+.container {
+  background-color: #e7d0d0; }
+  .container .main_div {
+    padding: 50px 0;
+    margin: auto;
+    width: 70vw; }
+    .container .main_div h2 {
+      text-align: center;
+      color: #757575;
+      font-size: 36px;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      margin: 20px 0; }
+    .container .main_div img {
+      width: 100%; }
+    .container .main_div .info {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px; }
+      @media screen and (max-width: 700px) {
+        .container .main_div .info {
+          justify-content: space-between; } }
+      .container .main_div .info h3 {
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        margin: 10px 0;
+        color: #000; }
+        @media screen and (max-width: 700px) {
+          .container .main_div .info h3 {
+            font-size: 25px; } }
+      .container .main_div .info p {
+        font-size: 15px;
+        font-weight: 300;
+        font-family: georgia;
+        text-align: center;
+        line-height: 2;
+        color: #000; }
+        @media screen and (max-width: 700px) {
+          .container .main_div .info p {
+            font-size: 13px; } }
+
+.rsvp {
+  background-color: #ffdddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0; }
+  .rsvp h2 {
+    letter-spacing: 4px;
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #000;
+    text-align: center; }
+    @media screen and (max-width: 587px) {
+      .rsvp h2 {
+        font-size: 30px; } }
+  .rsvp p {
+    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: 2;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    color: #000;
+    text-align: center; }
+  .rsvp .cent {
+    text-align: center; }
+    .rsvp .cent button {
+      outline: none;
+      border: none;
+      padding: 12px 24px;
+      cursor: pointer;
+      border-radius: 5px;
+      background-color: #d87070;
+      color: #fff;
+      transition: .1s linear;
+      margin: 10px 0;
+      font-size: 24px;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      padding: 10px 60px !important;
+      margin: 10px 0; }
+      .rsvp .cent button:hover {
+        background-color: #706b6b; }
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  margin-bottom: 60px; }
+  .footer p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400; }
+    .footer p a {
+      text-decoration: none;
+      color: #fff; }
+      .footer p a:hover {
+        color: #008040; }

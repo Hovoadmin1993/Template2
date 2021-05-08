@@ -1,0 +1,28 @@
+.header{
+    height: 100vh;
+    background-image: url(../img/wedding_couple.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+    h1{
+        font-size: 64px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        letter-spacing: 4px;
+        color: $color;
+    }
+    h2{
+        font-size: 30px;
+        font-family: "georgia", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        letter-spacing: 4px;
+        color: $color;
+    }
+}

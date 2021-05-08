@@ -1,0 +1,20 @@
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-bottom: 60px;
+    p{
+        color: $color;
+        font-size: 20px;
+        font-weight: 400;
+        a{
+            text-decoration: none;
+            color: $color;
+            &:hover{
+                color: rgb(0, 128, 64);
+            }
+        }
+    }
+}

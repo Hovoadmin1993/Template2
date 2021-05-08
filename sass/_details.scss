@@ -1,0 +1,41 @@
+.main{
+    background-color: $bg-color;
+    .main_div{
+        padding: 50px 0;
+        margin: auto;
+        width: 70vw;
+        h2{
+            text-align: center;
+            color: $h2_color;
+            font-size: 36px;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: 15px;
+            line-height: 2;
+            font-style: italic;
+            font-family: "Raleway", sans-serif;
+            margin: 20px 0;
+        }
+        .divbut{
+            text-align: center;
+            button{
+                @include butt();
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                font-family: "georgia", sans-serif;
+                margin: 20px 0;
+                transition: .1s linear;
+                &:hover{
+                    background-color: rgb(129, 129, 129);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.section{
+    height: 100vh;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 64px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        letter-spacing: 4px;
+        color: $color;
+        @media screen and(max-width:510px) {
+            font-size: 54px;
+        }
+    }
+    p{
+        font-size: 30px;
+        font-family: "georgia", sans-serif;
+        font-weight: 400;
+        margin: 10px 0;
+        letter-spacing: 4px;
+        color: $color; 
+    }
+}
